@@ -1,0 +1,10 @@
+{
+	"name": "advent-of-code-2024",
+	"scripts": {
+		"test": "jest",
+		"solve": "node day02/solution.js"
+	},
+	"devDependencies": {
+		"jest": "^29"
+	}
+}
