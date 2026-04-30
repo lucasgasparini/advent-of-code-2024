@@ -14,7 +14,7 @@ function canProduceTarget(target, numbers) {
 		return (
 			evaluate(index + 1, current + next) ||
 			evaluate(index + 1, current * next) ||
-			evaluate(index + 1, concatenated)
+			evaluate(index + 1, concatenated) // Now checking for the extra operator, the only difference :)
 		)
 	}
 
