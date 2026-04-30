@@ -6,7 +6,7 @@ function canProduceTarget(target, numbers) {
 
 	function evaluate(index, current) {
 		if (index === numbers.length) return current === target
-		if (current > target) return false // Pruning: values only grow
+		if (current > target) return false
 
 		const next = numbers[index]
 		const concatenated = Number(`${current}${next}`)
