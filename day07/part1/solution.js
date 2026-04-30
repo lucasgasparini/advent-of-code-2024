@@ -39,7 +39,7 @@ function getTotalCalibrationsSum(input) {
 	return totalCalibrationResult
 }
 
-// Startup: node day07/solution.js
+// Startup: node day07/part1/solution.js
 if (require.main === module) {
 	const inputFile = process.argv[2] || 'day07/input.txt'
 	const input = fileSystem.readFileSync(path.resolve(inputFile), 'utf-8')
